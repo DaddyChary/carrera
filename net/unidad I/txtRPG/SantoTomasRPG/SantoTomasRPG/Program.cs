@@ -206,7 +206,7 @@
                     {
                         Console.Write("+-------------------------------------------------------------------------------------+" +
                                       "| En el camino de regreso, " + Nombre + " se encuentra con un amigo que necesita ayuda, lo que |\n" +
-                                      "| lo lleva a desviarse de su camino y llegar tarde a casa                             |" +
+                                      "| lo lleva a desviarse de su camino y llegar tarde a casa                             |\n" +
                                       "+-------------------------------------------------------------------------------------+");
                         Puntos = Puntos + -7;
                     }
@@ -317,6 +317,7 @@
                                       "| Felicidades haz ganado un apreton de manos, espero que te gustara el juego          |\n" +
                                       "| hasta la proxima                                                                    |\n" +
                                       "+-------------------------------------------------------------------------------------+");
+                    Console.ReadKey();
                     break;
                 }
             }
