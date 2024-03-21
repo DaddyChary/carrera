@@ -1,0 +1,14 @@
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\bin\Debug\net8.0\SantoTomasRPG.exe
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\bin\Debug\net8.0\SantoTomasRPG.deps.json
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\bin\Debug\net8.0\SantoTomasRPG.runtimeconfig.json
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\bin\Debug\net8.0\SantoTomasRPG.dll
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\bin\Debug\net8.0\SantoTomasRPG.pdb
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\SantoTomasRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\SantoTomasRPG.AssemblyInfoInputs.cache
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\SantoTomasRPG.AssemblyInfo.cs
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\SantoTomasRPG.csproj.CoreCompileInputs.cache
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\SantoTomasRPG.dll
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\refint\SantoTomasRPG.dll
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\SantoTomasRPG.pdb
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\SantoTomasRPG.genruntimeconfig.cache
+C:\Users\DaddyChary\source\repos\SantoTomasRPG\SantoTomasRPG\obj\Debug\net8.0\ref\SantoTomasRPG.dll
