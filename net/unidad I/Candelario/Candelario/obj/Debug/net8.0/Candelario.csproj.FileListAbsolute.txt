@@ -1,0 +1,14 @@
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\bin\Debug\net8.0\Candelario.exe
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\bin\Debug\net8.0\Candelario.deps.json
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\bin\Debug\net8.0\Candelario.runtimeconfig.json
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\bin\Debug\net8.0\Candelario.dll
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\bin\Debug\net8.0\Candelario.pdb
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.AssemblyInfoInputs.cache
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.AssemblyInfo.cs
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.dll
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\refint\Candelario.dll
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.pdb
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.genruntimeconfig.cache
+C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\ref\Candelario.dll
