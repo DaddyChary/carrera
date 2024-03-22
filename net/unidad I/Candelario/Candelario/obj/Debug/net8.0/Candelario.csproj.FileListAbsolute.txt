@@ -12,3 +12,18 @@ C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\refint\
 C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.pdb
 C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\Candelario.genruntimeconfig.cache
 C:\Users\Laboratorio\source\repos\Candelario\Candelario\obj\Debug\net8.0\ref\Candelario.dll
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.AssemblyInfoInputs.cache
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.AssemblyInfo.cs
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.csproj.CoreCompileInputs.cache
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.sourcelink.json
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.dll
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\refint\Candelario.dll
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.pdb
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\bin\Debug\net8.0\Candelario.exe
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\bin\Debug\net8.0\Candelario.deps.json
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\bin\Debug\net8.0\Candelario.runtimeconfig.json
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\bin\Debug\net8.0\Candelario.dll
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\bin\Debug\net8.0\Candelario.pdb
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\Candelario.genruntimeconfig.cache
+C:\Users\DaddyChary\Documents\carrera\net\unidad I\Candelario\Candelario\obj\Debug\net8.0\ref\Candelario.dll

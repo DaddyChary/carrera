@@ -7,20 +7,21 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        string [] Dias = ["L", "M", "M", "J", "V", "S", "D"];
-        string Respuesta = "";
-        string [,] Enero = new string[4, 6];
-        string [,] Febrero = new string[4, 6];
-        string [,] Marzo = new string[4, 6];
-        string [,] Abril = new string[4, 6];
-        string [,] Mayo = new string[4, 6];
-        string [,] Junio = new string[4, 6];
-        string [,] Julio = new string[4, 6];
-        string [,] Agosto = new string[4, 6];
-        string [,] Septiembre = new string[4, 6];
-        string [,] Octubre = new string[4, 6];
-        string [,] Noviembre = new string[4, 6];
-        string [,] Diciembre = new string[4, 6];
+        string[] Dias = ["L", "M", "M", "J", "V", "S", "D"];
+        string respuesta = "";
+        bool cortar = true;
+        /*string[,] Enero = new string[4, 6];
+        string[,] Febrero = new string[4, 6];
+        string[,] Marzo = new string[4, 6];
+        string[,] Abril = new string[4, 6];
+        string[,] Mayo = new string[4, 6];
+        string[,] Junio = new string[4, 6];
+        string[,] Julio = new string[4, 6];
+        string[,] Agosto = new string[4, 6];
+        string[,] Septiembre = new string[5, 6];
+        string[,] Octubre = new string[4, 6];
+        string[,] Noviembre = new string[4, 6];
+        string[,] Diciembre = new string[5, 6];
 
         Enero[0, 0] = "1";
         Enero[0, 1] = "2";
@@ -216,7 +217,7 @@ internal class Program
         Mayo[3, 4] = "24";
         Mayo[3, 5] = "25";
         Mayo[3, 6] = "26";
-    
+
         Mayo[4, 0] = "27";
         Mayo[4, 1] = "28";
         Mayo[4, 2] = "29";
@@ -351,35 +352,253 @@ internal class Program
         Agosto[4, 5] = "31";
         Agosto[4, 6] = "";
 
+        //Septiembre
+        Septiembre[0, 0] = "";
+        Septiembre[0, 1] = "";
+        Septiembre[0, 2] = "";
+        Septiembre[0, 3] = "";
+        Septiembre[0, 4] = "";
+        Septiembre[0, 5] = "";
+        Septiembre[0, 6] = "1";
+
+        Septiembre[1, 0] = "2";
+        Septiembre[1, 1] = "3";
+        Septiembre[1, 2] = "4";
+        Septiembre[1, 3] = "5";
+        Septiembre[1, 4] = "6";
+        Septiembre[1, 5] = "7";
+        Septiembre[1, 6] = "8";
+
+        Septiembre[2, 0] = "9";
+        Septiembre[2, 1] = "10";
+        Septiembre[2, 2] = "11";
+        Septiembre[2, 3] = "12";
+        Septiembre[2, 4] = "13";
+        Septiembre[2, 5] = "14";
+        Septiembre[2, 6] = "15";
+
+        Septiembre[3, 0] = "16";
+        Septiembre[3, 1] = "17";
+        Septiembre[3, 2] = "18";
+        Septiembre[3, 3] = "19";
+        Septiembre[3, 4] = "20";
+        Septiembre[3, 5] = "21";
+        Septiembre[3, 6] = "22";
+
+        Septiembre[4, 0] = "23";
+        Septiembre[4, 1] = "24";
+        Septiembre[4, 2] = "25";
+        Septiembre[4, 3] = "26";
+        Septiembre[4, 4] = "27";
+        Septiembre[4, 5] = "28";
+        Septiembre[4, 6] = "29";
+
+        Septiembre[5, 0] = "30";
+        Septiembre[5, 1] = "";
+        Septiembre[5, 2] = "";
+        Septiembre[5, 3] = "";
+        Septiembre[5, 4] = "";
+        Septiembre[5, 5] = "";
+        Septiembre[5, 6] = "";
+
+
+        //Octubre 
+
+        Octubre[0, 0] = "";
+        Octubre[0, 1] = "1";
+        Octubre[0, 2] = "2";
+        Octubre[0, 3] = "3";
+        Octubre[0, 4] = "4";
+        Octubre[0, 5] = "5";
+        Octubre[0, 6] = "6";
+
+        Octubre[1, 0] = "7";
+        Octubre[1, 1] = "8";
+        Octubre[1, 2] = "9";
+        Octubre[1, 3] = "10";
+        Octubre[1, 4] = "11";
+        Octubre[1, 5] = "12";
+        Octubre[1, 6] = "13";
+
+        Octubre[2, 0] = "14";
+        Octubre[2, 1] = "15";
+        Octubre[2, 2] = "16";
+        Octubre[2, 3] = "17";
+        Octubre[2, 4] = "18";
+        Octubre[2, 5] = "19";
+        Octubre[2, 6] = "20";
+
+        Octubre[3, 0] = "21";
+        Octubre[3, 1] = "22";
+        Octubre[3, 2] = "23";
+        Octubre[3, 3] = "24";
+        Octubre[3, 4] = "25";
+        Octubre[3, 5] = "26";
+        Octubre[3, 6] = "27";
+
+        Octubre[4, 0] = "28";
+        Octubre[4, 1] = "29";
+        Octubre[4, 2] = "30";
+        Octubre[4, 3] = "31";
+        Octubre[4, 4] = "";
+        Octubre[4, 5] = "";
+        Octubre[4, 6] = "";
+
+        //Noviembre
+
+        Noviembre[0, 0] = "";
+        Noviembre[0, 1] = "";
+        Noviembre[0, 2] = "";
+        Noviembre[0, 3] = "";
+        Noviembre[0, 4] = "1";
+        Noviembre[0, 5] = "2";
+        Noviembre[0, 6] = "3";
+
+        Noviembre[1, 0] = "4";
+        Noviembre[1, 1] = "5";
+        Noviembre[1, 2] = "6";
+        Noviembre[1, 3] = "7";
+        Noviembre[1, 4] = "8";
+        Noviembre[1, 5] = "9";
+        Noviembre[1, 6] = "10";
+
+        Noviembre[2, 0] = "11";
+        Noviembre[2, 1] = "12";
+        Noviembre[2, 2] = "13";
+        Noviembre[2, 3] = "14";
+        Noviembre[2, 4] = "15";
+        Noviembre[2, 5] = "16";
+        Noviembre[2, 6] = "17";
+
+        Noviembre[3, 0] = "18";
+        Noviembre[3, 1] = "19";
+        Noviembre[3, 2] = "20";
+        Noviembre[3, 3] = "21";
+        Noviembre[3, 4] = "22";
+        Noviembre[3, 5] = "23";
+        Noviembre[3, 6] = "24";
+
+        Noviembre[4, 0] = "25";
+        Noviembre[4, 1] = "26";
+        Noviembre[4, 2] = "27";
+        Noviembre[4, 3] = "28";
+        Noviembre[4, 4] = "29";
+        Noviembre[4, 5] = "30";
+        Noviembre[4, 6] = "";
+
+        //Diciembre
+
+        Diciembre[0, 0] = "";
+        Diciembre[0, 1] = "";
+        Diciembre[0, 2] = "";
+        Diciembre[0, 3] = "";
+        Diciembre[0, 4] = "";
+        Diciembre[0, 5] = "";
+        Diciembre[0, 6] = "1";
+
+        Diciembre[1, 0] = "2";
+        Diciembre[1, 1] = "3";
+        Diciembre[1, 2] = "4";
+        Diciembre[1, 3] = "5";
+        Diciembre[1, 4] = "6";
+        Diciembre[1, 5] = "7";
+        Diciembre[1, 6] = "8";
+
+        Diciembre[2, 0] = "9";
+        Diciembre[2, 1] = "10";
+        Diciembre[2, 2] = "11";
+        Diciembre[2, 3] = "12";
+        Diciembre[2, 4] = "13";
+        Diciembre[2, 5] = "14";
+        Diciembre[2, 6] = "15";
+
+        Diciembre[3, 0] = "16";
+        Diciembre[3, 1] = "17";
+        Diciembre[3, 2] = "18";
+        Diciembre[3, 3] = "19";
+        Diciembre[3, 4] = "20";
+        Diciembre[3, 5] = "21";
+        Diciembre[3, 6] = "22";
+
+        Diciembre[4, 0] = "23"
+        Diciembre[4, 1] = "24"
+        Diciembre[4, 2] = "25"
+        Diciembre[4, 3] = "26"
+        Diciembre[4, 4] = "27"
+        Diciembre[4, 5] = "28"
+        Diciembre[4, 6] = "29"
+
+        Diciembre[5, 0] = "30"
+        Diciembre[5, 1] = "31"
+        Diciembre[5, 2] = ""
+        Diciembre[5, 3] = ""
+        Diciembre[5, 4] = ""
+        Diciembre[5, 5] = ""
+        Diciembre[5, 6] = ""*/
 
 
 
 
 
-
-
-        Console.WriteLine(Dias[0] +"  "+ Dias[1] + "  " + Dias[2] + "  " + Dias[3] + "  " + Dias[4] + "  " + Dias[5] + "  " + Dias[6]);
-
-        /*switch (Respuesta) 
+        do
         {
-            case "1":
-            case "2":
-            case "3":
-            case "4":
-            case "5":
-            case "6":
-            case "7":
-            case "8":
-            case "9":
-            case "10":
-            case "11":
-            case "12":
-            default:
-                Console.WriteLine("Ingresa una opcion valida");
-                break;
-        
-        
-        }*/
+
+            Console.Write("+------------------------------------------------------------------------------------------+\n" +
+                          "|  Bienvenidos al calendario 2024                                                          |\n" +
+                          "+------------------------------------------------------------------------------------------+\n" +
+                          "| |  1-.| Enero    |   2-.| Febrero  |   3-.| Marzo    |   4-.| Abril     |   5-.| Mayo    |\n" +
+                          "| |  6-.| Junio    |   7-.| Julio    |   8-.| Agosto   |   9-.| Septiembre|  10-.| Octubre |\n" +
+                          "| | 11-.| Noviembre|  12-.| Diciembre|  13-.| Ver todos|  14-.| Salir     |                |\n" +
+                          "+------------------------------------------------------------------------------------------+\n" +
+                          "|  Selecciona una Opcion : ");
+            respuesta = Console.ReadLine();
+
+            switch (respuesta)
+            {
+                case "1":
+                    cortar = false
+                    break;
+                case "2":
+                    cortar = false
+                    break;
+                case "3":
+                    cortar = false
+                    break;
+                case "4":
+                    cortar = false
+                    break;
+                case "5":
+                    cortar = false
+                    break;
+                case "6":
+                    cortar = false
+                    break;
+                case "7":
+                    cortar = false
+                    break;
+                case "8":
+                    cortar = false
+                    break;
+                case "9":
+                    cortar = false
+                    break;
+                /*case "10":
+                case "11":
+                case "12":*/
+                default:
+                    Console.WriteLine("Ingresa una opcion valida");
+                    cortar = true
+                    break;
+
+            }
+
+        } while (cortar);
+
+
+        //Console.WriteLine(Dias[0] + "  " + Dias[1] + "  " + Dias[2] + "  " + Dias[3] + "  " + Dias[4] + "  " + Dias[5] + "  " + Dias[6]);
+        //Console.ReadKey();
+
+
 
     }
 }
