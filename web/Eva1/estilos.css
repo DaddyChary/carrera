@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+
+}
+
+.slider-frame {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto 0;
+    overflow: hidden;
+    position: relative;
+
+}   
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 600%;
+    position: relative;
+    left: 0;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+    list-style: none;
+    width: 16.66667%;
+}
+
+.slider-frame img {
+    width: 100%;
+    height: 400px;
+}
+
+@keyframes slide {
+    0% {left: 0;}
+    16.66667% {left: 0;}
+
+    16.66667% {left: -100%;}
+    33.33333% {left: -100%;}
+
+    33.33333% {left: -200%;}
+    50% {left: -200%;}
+
+    50% {left: -300%;}
+    66.66667% {left: -300%;}
+    
+    66.66667% {left: -400%;}
+    83.33333% {left: -400%;}
+
+    83.33333% {left: -500%;}
+    100% {left: -500%;}
+
+}
+
+.header {
+    height: 40px;
+    overflow: hidden;
+}
+
+.list-menu ul li {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    font-size: 1.1rem;
+    text-size-adjust: 100%;
+}
+
+.headerA{
+    
+    font-weight: 100;
+    line-height: 1.5;
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+    height: auto;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+  
+}
+
+.navbar-log ul li {
+
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 180px;
+    padding-right: 20px;
+}
+
+.navbar-search {
+
+    position: relative;
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 350px;
+    padding-right: 0px;
+}
+
+.navbar-btn {
+
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 421px;
+    padding-right: 0px;
+}
+
+.barSearch input{
+
+    flex: 1;
+    width: 350px;
+    padding: 15px 10px;
+    border: 0;
+    outline: 1px solid black;
+    background: transparent;
+    font-size: 20px;
+
+}
+
+.btnSearch button{
+
+    border: 0;
+    outline: 1px solid black;
+    background: transparent;
+    height: 54px;
+    width: 60px;
+
+}

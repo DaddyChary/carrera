@@ -1,0 +1,20 @@
+.list-menu{
+
+    display: grid;
+    margin-left: 200px;
+    margin-top: 10px;
+    grid-template-columns: 40px 5px 45px;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px;
+}
+
+
+.navbar{
+
+    display: grid;
+    margin-left: 0px;
+    margin-top: 0px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 109px; 
+
+}
