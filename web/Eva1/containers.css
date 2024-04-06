@@ -1,0 +1,47 @@
+.contenedorBotonAnimatedNavBar{
+
+    padding-top: 50px ;
+    padding-left: 140px;
+}
+
+.contenedorNavbar{
+
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 0px; 
+    
+}
+
+.contenedorBotonNavbar{
+    padding-top: 30px;
+    padding-left: 221px;
+    padding-right: 0px;
+}
+
+.contenedorLogoNav{
+    padding-top: 30px;
+    padding-left: 180px;
+    padding-right: 20px;
+}
+
+.contenedorCategoriasNav{
+
+    padding-top: 45px ;
+    padding-left: 0px;
+    padding-right: 40px;
+
+}
+
+.contenedorJoinBtn{
+
+
+    padding-top: 45px ;
+    padding-left: 150px;
+
+}
+
+.contenedorRegisterBtn{
+
+    padding-top: 48px ;
+    padding-left: 0px;
+}

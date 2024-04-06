@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="containers.css">
 </head>
 <body>
 
@@ -26,31 +27,81 @@
     </div>
 
 
-    <div class="navbar bg-crema">
+    <div class="navbar">
 
-        
-        <div class="navbar-log">
-            <ul>
-                <li><img src="resources/logo_resource/logo_navbar.png"></li>
-            </ul>
+        <div class="contenedorLogoNav">
+            <div class="navbar-log">
+                <ul>
+                    <li><img src="resources/navbar_resource/logo_navbar.png"></li>
+                </ul>
+            </div>
         </div>
             
+        <div class="contenedorBotonAnimatedNavBar">
 
-        <div class="navbar-search barSearch">
+            <div class="menu-btn" onclick="this.classList.toggle('open')">
                 
-            <form>
-                <input type="text" placeholder="Buscar por artista, evento o lugar">
-            </form>
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </div>
 
         </div>
         
-        <div class="navbar-btn btnSearch">
+        <div class="contenedorCategoriasNav">
 
-            <form>
-                <button type="submit"><img src="resources/logo_resource/lupa_1.png" alt=""></button>
-            </form>
+            <div class="categoriasSp">
+                <span>Categorías</span>
+            </div>
 
         </div>
+        
+        <div class="contenedorNavbar">
+
+            <div class="navbar-search barSearch">
+                
+                <form>
+                    <input type="text" placeholder="Buscar por artista, evento o lugar">
+                </form>
+                
+            </div>
+
+        </div>
+        
+        <div class="contenedorBotonNavbar">
+
+            <div class="navbar-btn btnSearch">
+                
+                <form>
+                    <button type="submit"><img src="resources/navbar_resource/lupa_1.png" alt=""></button>
+                </form>
+            </div>
+                
+        </div>
+
+        <div class="contenedorJoinBtn">
+
+            <div class="btnIngresar btnIngresarImg">
+
+                <form>
+                    <button type="button"><img src="resources/navbar_resource/usuario.png" alt="INGRESA">INGRESA</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="contenedorRegisterBtn">
+            <div class="btnRegister">
+
+                <form>
+                    <button type="button">REGÍSTRATE</button>
+                </form>
+
+            </div>
+
+        </div>
+
 
     </div>
 
