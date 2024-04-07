@@ -15,6 +15,77 @@
     margin-left: 0px;
     margin-top: 0px;
     grid-template-columns: 300px 180px 110px 300px 500px 265px 200px;
-    grid-template-rows: 120px ; 
+    grid-template-rows: 124px ; 
 
 }
+
+
+
+.main-components{
+
+    
+    display: grid;
+    margin-left: 5%;
+    margin-top: 2%;
+    grid-template-columns: 1200px 540px ;
+    grid-template-rows: 2400px; 
+}
+
+.caugalist-container{
+
+    display: grid;
+    margin-left: 0px;
+    margin-top: 0px;
+    grid-template-columns: 975px ;
+    grid-template-rows: 2000px;
+
+}
+
+.event-container{
+
+    display: grid;
+    margin-left: 0px;
+    margin-top: 0px;
+    grid-gap: 7px;
+    padding: 0px 0px;
+    grid-template-columns: 588.5px 588.5px ;
+    grid-template-rows: 372.44px 372.44px 372.44px 372.44px 372.44px 372.44px ;
+}
+
+.img-event-container{
+
+    display: grid;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 20px 55px;
+    grid-template-columns: 392.5px;
+    grid-template-rows: 179.89px;
+
+}
+
+.event-txt-img{
+
+
+    display: grid;
+    margin-left: 55px;
+    margin-top: 25px;
+    padding: 0px 0px;
+    grid-template-columns: 50px 431.5px;
+    grid-template-rows: 130.5px;
+    overflow: hidden;
+
+}
+
+
+.img-destacados-container{
+
+    display: grid;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0px 0px;
+    grid-template-columns: 358.5px;
+    grid-template-rows: 130.89px;
+
+}
+
+

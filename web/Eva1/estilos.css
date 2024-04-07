@@ -245,3 +245,51 @@
 .btnRegister form button:hover::after {
     width: 100%;
 }
+
+
+.log img {
+
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.txt-order{
+
+    height: auto;
+    width: auto;
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+
+.encabezado {
+
+    font-size: 16px;
+
+    color: orange;
+
+}
+
+.strong2 strong {
+
+    font-weight: 1000;
+    color: black;
+}
+
+.tittle-cantante h3{
+
+    font-size: 25px;
+    font-weight: 1000;
+    color: black;
+
+}
+
+.fecha p {
+
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 1000;
+    color: gray;
+}
