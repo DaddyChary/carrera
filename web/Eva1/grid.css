@@ -1,3 +1,10 @@
+:root{
+
+    --width-colum: 200.89px;
+    --width-row: 372.44px;
+
+}
+
 .list-menu{
 
     display: grid;
@@ -49,7 +56,7 @@
     grid-gap: 7px;
     padding: 0px 0px;
     grid-template-columns: 588.5px 588.5px ;
-    grid-template-rows: 372.44px 372.44px 372.44px 372.44px 372.44px 372.44px ;
+    grid-template-rows: var(--width-row) var(--width-row) var(--width-row) var(--width-row) var(--width-row) var(--width-row) ;
 }
 
 .img-event-container{
@@ -82,10 +89,16 @@
     display: grid;
     margin-left: 0px;
     margin-top: 0px;
-    padding: 0px 0px;
-    grid-template-columns: 358.5px;
-    grid-template-rows: 130.89px;
+    padding-left: 7px;
+    padding-right: 20px;
+    row-gap: 17px;
+    grid-template-columns: 1;
+    grid-template-rows: 50px var(--width-colum) var(--width-colum) var(--width-colum) var(--width-colum) var(--width-colum) 50px 140px 90px;
 
 }
 
+.destacados{
+
+    height: 1550px;
+}
 
