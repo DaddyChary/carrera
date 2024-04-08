@@ -1,12 +1,9 @@
 :root{
-
     --width-colum: 200.89px;
     --width-row: 372.44px;
-
 }
 
 .list-menu{
-
     display: grid;
     margin-left: 200px;
     margin-top: 10px;
@@ -15,22 +12,15 @@
     grid-gap: 5px;
 }
 
-
 .navbar{
-
     display: grid;
     margin-left: 0px;
     margin-top: 0px;
     grid-template-columns: 300px 180px 110px 300px 500px 265px 200px;
     grid-template-rows: 124px ; 
-
 }
 
-
-
-.main-components{
-
-    
+.main-components{    
     display: grid;
     margin-left: 5%;
     margin-top: 2%;
@@ -39,17 +29,14 @@
 }
 
 .caugalist-container{
-
     display: grid;
     margin-left: 0px;
     margin-top: 0px;
     grid-template-columns: 975px ;
     grid-template-rows: 2000px;
-
 }
 
 .event-container{
-
     display: grid;
     margin-left: 0px;
     margin-top: 0px;
@@ -60,19 +47,15 @@
 }
 
 .img-event-container{
-
     display: grid;
     margin-left: 0px;
     margin-top: 0px;
     padding: 20px 55px;
     grid-template-columns: 392.5px;
     grid-template-rows: 179.89px;
-
 }
 
 .event-txt-img{
-
-
     display: grid;
     margin-left: 55px;
     margin-top: 25px;
@@ -80,12 +63,9 @@
     grid-template-columns: 50px 431.5px;
     grid-template-rows: 130.5px;
     overflow: hidden;
-
 }
 
-
 .img-destacados-container{
-
     display: grid;
     margin-left: 0px;
     margin-top: 0px;
@@ -94,16 +74,13 @@
     row-gap: 17px;
     grid-template-columns: 1;
     grid-template-rows: 50px var(--width-colum) var(--width-colum) var(--width-colum) var(--width-colum) var(--width-colum) 50px 140px 90px;
-
 }
 
 .destacados{
-
     height: 1550px;
 }
 
 .footer-grid{
-
     display: grid;
     margin-left: 0;
     margin-top: 0;
@@ -111,11 +88,9 @@
     padding-left: 0;
     grid-template-columns: 550px 400px 300px 653px;
     grid-template-rows: 280px;
-
 }
 
 .footer-btn-rrdd{
-
     display: grid;
     margin-left: 0;
     margin-top: 0;

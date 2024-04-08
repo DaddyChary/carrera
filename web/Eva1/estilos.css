@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: lato;
-
 }
-
 
 .slider-frame {
     width: 100%;
@@ -12,7 +10,6 @@
     margin: 0 auto 0;
     overflow: hidden;
     position: relative;
-
 }   
 
 .slider-frame ul {
@@ -37,22 +34,16 @@
 @keyframes slide {
     0% {left: 0;}
     16.66667% {left: 0;}
-
     16.66667% {left: -100%;}
     33.33333% {left: -100%;}
-
     33.33333% {left: -200%;}
     50% {left: -200%;}
-
     50% {left: -300%;}
-    66.66667% {left: -300%;}
-    
+    66.66667% {left: -300%;}    
     66.66667% {left: -400%;}
     83.33333% {left: -400%;}
-
     83.33333% {left: -500%;}
     100% {left: -500%;}
-
 }
 
 .header {
@@ -70,8 +61,7 @@
     text-size-adjust: 100%;
 }
 
-.headerA{
-    
+.headerA{    
     font-weight: 100;
     line-height: 1.5;
     box-sizing: border-box;
@@ -81,28 +71,23 @@
     font-family: "Roboto Condensed", sans-serif;
     list-style: none;
     text-decoration: none;
-    color: #fff;
-  
+    color: #fff;  
 }
 
 .navbar-log ul li {
-
     list-style: none;
 }
 
 .navbar-search {
-
     position: relative;
     list-style: none;
 }
 
 .navbar-btn {
-
     list-style: none;
 }
 
 .barSearch input{
-
     flex: 1;
     width: 450px;
     padding: 15px 10px;
@@ -110,17 +95,14 @@
     outline: 1px solid black;
     background: transparent;
     font-size: 20px;
-
 }
 
 .btnSearch button{
-
     border: 0;
     outline: 1px solid black;
     background: transparent;
     height: 53px;
     width: 60px;
-
 }
 
 .menu-btn {
@@ -129,8 +111,7 @@
     position: relative;
     cursor: pointer;
 }
-.menu-btn span {
-  
+.menu-btn span {  
     position: absolute;
     height: 4px;
     width: 100%;
@@ -138,25 +119,31 @@
     border-radius: 9px;
     transition: 0.5s;
 }
+
 .menu-btn span:nth-child(1) {
     top: 7%;
 }
+
 .menu-btn span:nth-child(2) {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
 }
+
 .menu-btn span:nth-child(3) {
-     top: 80%;
+    top: 80%;
 }
+
 .menu-btn.open span:nth-child(1) {
     transform: translate(8px, -8px);
     animation: moveRightTop 0.5s forwards;
 }
+
 .menu-btn.open span:nth-child(3) {
     transform: translate(-5px, 5px);
     animation: moveLeftBottom 0.5s forwards;
 }
+
 @keyframes moveRightTop {
     from {
         transform: translate(0px, 0px);
@@ -165,6 +152,7 @@
         transform: translate(8px, -8px);
     }
 }
+
 @keyframes moveLeftBottom {
     from {
         transform: translate(0px, 0px);
@@ -175,7 +163,6 @@
 }
 
 .categoriasSp span{
-
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -211,15 +198,12 @@
 }
 
 .btnIngresarImg img{
-
     vertical-align: middle;
     margin-right: 1px;
     margin-top: 2px;
 }
 
-.btnRegister form button{
-
-    
+.btnRegister form button{    
     position: relative;
     border: 0;
     margin-top: 2px;
@@ -229,7 +213,6 @@
     font-size: 12px;
     line-height: 24px;
 }
-
 
 .btnRegister form button::after {
     content: '';
@@ -247,9 +230,7 @@
     width: 100%;
 }
 
-
 .log img {
-
     height: 40px;
     width: 40px;
     padding-top: 20px;
@@ -257,38 +238,29 @@
 }
 
 .txt-order{
-
     height: auto;
     width: auto;
     padding-top: 15px;
     padding-left: 10px;
-
 }
 
 .encabezado {
-
     font-size: 16px;
-
     color: orange;
-
 }
 
 .strong2 strong {
-
     font-weight: 1000;
     color: black;
 }
 
 .tittle-cantante h3{
-
     font-size: 25px;
     font-weight: 1000;
     color: black;
-
 }
 
 .fecha p {
-
     padding-top: 5px;
     font-size: 14px;
     font-weight: 1000;
@@ -296,31 +268,23 @@
 }
 
 .txt-destacados{
-
     font-size: 17px;
     color: blueviolet;
-
 }
 
 .txt-destacados-ventas{
-
     font-size: 14px;
     color: blueviolet;
-
 }
 
 .txt-visita h2{
-
     font-size: 16;
     color: blueviolet;
     padding: 8px;
     text-align: center;
-
 }
 
 .border-destacados{
-
-
     border:ridge;
 }
 
@@ -345,11 +309,9 @@
 
 
 .titulo-footer{
-
     font-size: 14px;
     color: #fff;
     padding-bottom: 10px;
-
 }
 
 .txt-footer {
@@ -382,8 +344,6 @@
     text-decoration-color: #fff;
 }
 
-
-
 .btn-rrss {
     width: 50px;
     height: 50px;
@@ -412,14 +372,12 @@
     text-align: center;
     width: 200px;
     height: 50px;
-    transition: filter 0.3s; /* Agregar una transición suave */
+    transition: filter 0.3s; 
 }
 
 .btn-help:hover {
-    filter: brightness(70%); /* Hacer el botón un poco más oscuro */
+    filter: brightness(70%); 
 }
-
-
 
 .zoom{
     overflow: hidden;
@@ -427,5 +385,5 @@
 }
 
 .zoom:hover {
-    transform: scale(1.11); /* Hacer zoom al 110% */
+    transform: scale(1.11);
 }
