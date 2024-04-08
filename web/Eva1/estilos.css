@@ -325,7 +325,7 @@
 }
 
 
-.btn-test {
+.btn-centro-ayuda {
     background-color: rgb(247, 66, 45);
     border: 1px solid white;
     color: white;
@@ -337,8 +337,95 @@
     transition: color 0.3s, background-color 0.3s, border-color 0.3s; 
 }
 
-.btn-test:hover {
+.btn-centro-ayuda:hover {
     color: rgb(247, 66, 45);
     background-color: white;
     border-color: rgb(247, 66, 45);
+}
+
+
+.titulo-footer{
+
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 10px;
+
+}
+
+.txt-footer {
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-a a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.txt-footer-animated li {
+    transition: color 0.3s;
+    text-decoration: underline transparent;
+}
+
+.txt-footer-animated li a {
+    transition: color 0.3s;
+    text-decoration: underline transparent;
+}
+
+.txt-footer-animated li a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color: #fff;
+}
+
+.txt-footer-animated li:hover {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color: #fff;
+}
+
+
+
+.btn-rrss {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgba(51,51,51,255);
+    transition: background-color 0.3s, border-color 0.3s;
+    border: 1px solid transparent;
+}
+
+.logo {
+    width: 25px; 
+    height: 25px;
+}
+
+.btn-rrss:hover {
+    background-color: black;
+    border-color: white;
+}
+
+.btn-help {
+    background-color: rgb(247, 66, 45);
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    transition: filter 0.3s; /* Agregar una transición suave */
+}
+
+.btn-help:hover {
+    filter: brightness(70%); /* Hacer el botón un poco más oscuro */
+}
+
+
+
+.zoom{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.11); /* Hacer zoom al 110% */
 }

@@ -35,7 +35,7 @@
     margin-left: 5%;
     margin-top: 2%;
     grid-template-columns: 1200px 540px ;
-    grid-template-rows: 2400px; 
+    grid-template-rows: 2000px; 
 }
 
 .caugalist-container{
@@ -102,3 +102,26 @@
     height: 1550px;
 }
 
+.footer-grid{
+
+    display: grid;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    grid-template-columns: 550px 400px 300px 653px;
+    grid-template-rows: 280px;
+
+}
+
+.footer-btn-rrdd{
+
+    display: grid;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    column-gap: 20px;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 48px;
+}
