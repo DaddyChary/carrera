@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botón de Menú CSS con Animación</title>
+  <style>
+    .menu-btn {
+      width: 30px;
+      height: 20px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .menu-btn span {
+      display: block;
+      position: absolute;
+      height: 4px;
+      width: 100%;
+      background: black;
+      border-radius: 9px;
+      transition: 0.5s;
+    }
+
+    .menu-btn span:nth-child(1) {
+      top: 7%;
+    }
+
+    .menu-btn span:nth-child(2) {
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    .menu-btn span:nth-child(3) {
+      top: 80%;
+    }
+
+    .menu-btn.open span:nth-child(1) {
+      transform: translate(8px, -8px);
+      animation: moveRightTop 0.5s forwards;
+    }
+
+    .menu-btn.open span:nth-child(3) {
+      transform: translate(-5px, 5px);
+      animation: moveLeftBottom 0.5s forwards;
+    }
+
+    @keyframes moveRightTop {
+      from {
+        transform: translate(0px, 0px);
+      }
+      to {
+        transform: translate(8px, -8px);
+      }
+    }
+
+    @keyframes moveLeftBottom {
+      from {
+        transform: translate(0px, 0px);
+      }
+      to {
+        transform: translate(-5px, 5px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-btn" onclick="this.classList.toggle('open')">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</body>
+</html>
