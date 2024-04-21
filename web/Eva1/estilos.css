@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: lato;
@@ -10,7 +10,7 @@
     margin: 0 auto 0;
     overflow: hidden;
     position: relative;
-}   
+}
 
 .slider-frame ul {
     display: flex;
@@ -32,18 +32,53 @@
 }
 
 @keyframes slide {
-    0% {left: 0;}
-    16.66667% {left: 0;}
-    16.66667% {left: -100%;}
-    33.33333% {left: -100%;}
-    33.33333% {left: -200%;}
-    50% {left: -200%;}
-    50% {left: -300%;}
-    66.66667% {left: -300%;}    
-    66.66667% {left: -400%;}
-    83.33333% {left: -400%;}
-    83.33333% {left: -500%;}
-    100% {left: -500%;}
+    0% {
+        left: 0;
+    }
+
+    16.66667% {
+        left: 0;
+    }
+
+    16.66667% {
+        left: -100%;
+    }
+
+    33.33333% {
+        left: -100%;
+    }
+
+    33.33333% {
+        left: -200%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    50% {
+        left: -300%;
+    }
+
+    66.66667% {
+        left: -300%;
+    }
+
+    66.66667% {
+        left: -400%;
+    }
+
+    83.33333% {
+        left: -400%;
+    }
+
+    83.33333% {
+        left: -500%;
+    }
+
+    100% {
+        left: -500%;
+    }
 }
 
 .header {
@@ -61,7 +96,7 @@
     text-size-adjust: 100%;
 }
 
-.headerA{    
+.headerA {
     font-weight: 100;
     line-height: 1.5;
     box-sizing: border-box;
@@ -71,7 +106,7 @@
     font-family: "Roboto Condensed", sans-serif;
     list-style: none;
     text-decoration: none;
-    color: #fff;  
+    color: #fff;
 }
 
 .navbar-log ul li {
@@ -87,7 +122,7 @@
     list-style: none;
 }
 
-.barSearch input{
+.barSearch input {
     flex: 1;
     width: 450px;
     padding: 15px 10px;
@@ -97,7 +132,7 @@
     font-size: 20px;
 }
 
-.btnSearch button{
+.btnSearch button {
     border: 0;
     outline: 1px solid black;
     background: transparent;
@@ -111,7 +146,8 @@
     position: relative;
     cursor: pointer;
 }
-.menu-btn span {  
+
+.menu-btn span {
     position: absolute;
     height: 4px;
     width: 100%;
@@ -148,6 +184,7 @@
     from {
         transform: translate(0px, 0px);
     }
+
     to {
         transform: translate(8px, -8px);
     }
@@ -157,12 +194,13 @@
     from {
         transform: translate(0px, 0px);
     }
+
     to {
         transform: translate(-5px, 5px);
     }
 }
 
-.categoriasSp span{
+.categoriasSp span {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -197,13 +235,13 @@
     width: 100%;
 }
 
-.btnIngresarImg img{
+.btnIngresarImg img {
     vertical-align: middle;
     margin-right: 1px;
     margin-top: 2px;
 }
 
-.btnRegister form button{    
+.btnRegister form button {
     position: relative;
     border: 0;
     margin-top: 2px;
@@ -237,7 +275,7 @@
     padding-left: 5px;
 }
 
-.txt-order{
+.txt-order {
     height: auto;
     width: auto;
     padding-top: 15px;
@@ -254,7 +292,7 @@
     color: black;
 }
 
-.tittle-cantante h3{
+.tittle-cantante h3 {
     font-size: 25px;
     font-weight: 1000;
     color: black;
@@ -267,25 +305,25 @@
     color: gray;
 }
 
-.txt-destacados{
+.txt-destacados {
     font-size: 17px;
     color: blueviolet;
 }
 
-.txt-destacados-ventas{
+.txt-destacados-ventas {
     font-size: 14px;
     color: blueviolet;
 }
 
-.txt-visita h2{
+.txt-visita h2 {
     font-size: 16;
     color: blueviolet;
     padding: 8px;
     text-align: center;
 }
 
-.border-destacados{
-    border:ridge;
+.border-destacados {
+    border: ridge;
 }
 
 
@@ -295,10 +333,10 @@
     color: white;
     font-size: 25px;
     font-weight: 400;
-    padding: 25px 2px; 
+    padding: 25px 2px;
     text-align: center;
     width: 505.75px;
-    transition: color 0.3s, background-color 0.3s, border-color 0.3s; 
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
 }
 
 .btn-centro-ayuda:hover {
@@ -308,7 +346,7 @@
 }
 
 
-.titulo-footer{
+.titulo-footer {
     font-size: 14px;
     color: #fff;
     padding-bottom: 10px;
@@ -319,7 +357,7 @@
     color: #fff;
 }
 
-.footer-a a{
+.footer-a a {
     color: #fff;
     text-decoration: none;
 }
@@ -348,13 +386,13 @@
     width: 50px;
     height: 50px;
     text-align: center;
-    background-color: rgba(51,51,51,255);
+    background-color: rgba(51, 51, 51, 255);
     transition: background-color 0.3s, border-color 0.3s;
     border: 1px solid transparent;
 }
 
 .logo {
-    width: 25px; 
+    width: 25px;
     height: 25px;
 }
 
@@ -372,14 +410,14 @@
     text-align: center;
     width: 200px;
     height: 50px;
-    transition: filter 0.3s; 
+    transition: filter 0.3s;
 }
 
 .btn-help:hover {
-    filter: brightness(70%); 
+    filter: brightness(70%);
 }
 
-.zoom{
+.zoom {
     overflow: hidden;
     transition: transform 0.3s ease;
 }
