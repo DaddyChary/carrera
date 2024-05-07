@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Candelario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73557d08292fae30cd104f0e1972f798fc3b2a6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f73a99518dc162e8255f3a33c7d1e966c425de8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Candelario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Candelario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
