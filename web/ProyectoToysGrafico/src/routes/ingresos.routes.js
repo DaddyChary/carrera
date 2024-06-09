@@ -6,7 +6,7 @@ ruta.get('/', (req, res) => {
     try {
         ingresosController.getAll()
             .then((ingresos) => {
-                res.json({ message: 'success', codeStatus: 200, data: ingresos });
+                res.render('ingresos', {  ingresos });
             })
     } catch (error) {
         res.json({ message: 'error', codeStatus: 500, data: error });
@@ -17,7 +17,7 @@ ruta.get('/:id', (req, res) => {
     try {
         ingresosController.getOneBy(req.params.id)
             .then((ingresos) => {
-                res.json({ message: 'success', codeStatus: 200, data: ingresos });
+                res.render('ingresos', {  ingresos });
             })
     } catch (error) {
         res.json({ message: 'error', codeStatus: 500, data: error });

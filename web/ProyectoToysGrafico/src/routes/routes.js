@@ -17,12 +17,13 @@ ruta.use('/categorias', categoriasRoutes);
 ruta.use('/marcas', marcasRoutes);
 
 ruta.get('/', (req, res) => {
-    const home = "Bienvenido al inicio"
-    res.render('home', {home});
+    const titulo = "Bienvenido al inicio"
+    res.render('home', { titulo });
 });
 
 ruta.get('/about', (req, res) => {
-    res.send('¡About!');
+    const titulo = "About"
+    res.render('about', {titulo});
 });
 
 module.exports = ruta;
