@@ -6,17 +6,17 @@
         rel="stylesheet">
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
             display: flex;
             flex-direction: column;
-            font-family: Arial, sans-serif;
+            min-height: 100vh; /* 100% de la altura de la ventana */
+            margin: 0; /* Elimina el margen por defecto */
+            position: relative; /* Asegura que el footer se posicione correctamente */
         }
 
+        /* Ajusta el padding del contenido para dejar espacio para el footer */
         .content {
             flex: 1;
-            padding: 20px;
+            padding-bottom: 200px; /* Ajusta este valor según sea necesario */
         }
 
         .footer {
@@ -24,6 +24,8 @@
             color: #ffffff;
             padding: 20px 0;
             text-align: center;
+            position: relative; /* Asegura que el footer esté fijo en la parte inferior */
+            bottom: 0;
             width: 100%;
         }
 
@@ -64,32 +66,15 @@
             text-decoration: underline;
         }
 
-        .social-icons {
-            margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .social-icons a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .social-icons a:hover {
-            color: #ff6347;
-        }
-
         .footer-bottom {
             background-color: #202020;
             padding: 20px 0;
             text-align: center;
             color: #cccccc;
         }
+
         .box {
-                display: flex;
+            display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -97,7 +82,12 @@
             border-radius: 10px;
             background: linear-gradient(145deg, #ffffff, #e6e6e6);
             box-shadow: 5px 5px 15px #aaaaaa, -5px -5px 15px #ffffff;
+            padding: 20px; /* Ajusta el valor según sea necesario */
+            margin: 20px auto; /* Ajusta el valor según sea necesario */
+            width: 80%; /* Ajusta el valor según sea necesario */
+            max-width: 60%; /* Limita el tamaño máximo */
         }
+
         .footer h4 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
@@ -134,7 +124,62 @@
             margin-bottom: 1.5rem;
         }
 
-        
-        
+        h2 {
+            margin-top: 20px; /* Ajusta este valor según tus necesidades */
+        }
+
+        .content-container {
+            padding-top: 20px;
+        }
+
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .card-img-top {
+            height: 200px; /* Ajusta esta altura según sea necesario */
+            object-fit: cover;
+        }
+    
+        .statistic-card {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .statistic-card:hover {
+            transform: translateY(-5px);
+        }
+        .statistic-card h3 {
+            font-size: 24px;
+            color: #343a40;
+            margin-bottom: 10px;
+        }
+        .statistic-card p {
+            font-size: 36px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 0;
+        }
     </style>
 </head>
